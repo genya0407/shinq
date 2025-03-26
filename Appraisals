@@ -13,6 +13,7 @@
 appraise "rails-7.0" do
   gem "activesupport", "~> 7.0.0"
   gem "activejob", "~> 7.0.0"
+  gem 'concurrent-ruby', '1.3.4' # https://stackoverflow.com/a/79361034
 end
 
 appraise "rails-7.1" do
